@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.lefthead {
+  width: 200px;
+  margin-left: 100px;
+}
+
+.navBar {
+  width: 600px;
+}
+
+.right-section {
+  margin-right: 200px;
+}
+
+
+#paragraph, #header2 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#header2 {
+  font-family: arial;
+}
+
+#paragraph {
+  letter-spacing: 4px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+#home, #about, #projects, #services, #blog, #pages, #contact {
+  margin-right: 10px;
+  font-family: arial;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+button {
+  margin: 10px;
+  padding: 8px;
+}
+
+.image1 {
+  width: 100%;
+}
+
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/87836892-6413-48b2-8e2d-3ec2c1beb031.jpeg);
+  background-size: cover;
+  padding: 200px;
+  height: 500px;
+}
+
+.centerText {
+  font-size: 50px;
+  font-family: arial;
+  line-height: 50px;
+  margin-bottom: 0;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 5px;
+ 
+}
+
+.description {
+  color: white;
+}
+
+#sign-in {
+  background-color: transparent;
+  border-color: white;
+  font-size: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: white
+}
